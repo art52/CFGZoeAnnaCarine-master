@@ -1,0 +1,64 @@
+header {
+  text-align: center;
+
+  background: rgba(0, 0, 0, 0.6);
+  padding: 15px;
+  margin: 0;
+  color: #FFF;
+  font-size: 24px;
+  font-family: gungsuh;
+}
+body {
+	background-image: url("./Graphics/homepage-background.jpg");
+	background-size: cover;
+	background-position: center;
+	font-family: gungsuh;
+	font-size: 20px;
+}
+div {
+	color: white;
+	border: 2px solid black;
+	border-radius: 10px;
+	position: relative;
+}
+.concerts-button {
+	margin: 4% 1% 2% 18%;
+	float: left;
+	width: 28%;
+	height: 200px;
+	padding: 10px;
+	background: url("./Graphics/homepage-concerts-button.jpg");
+	background-size: cover;
+}
+.evensongs-button {
+	margin: 4% 18% 2% 1%;
+	float: right;
+	width: 28%;
+	height: 200px;
+	padding: 10px;
+	background: url("./Graphics/homepage-evensongs-button.jpg");
+	background-size: cover;
+}
+.ensembles-button {
+	margin: 2% 1% 4% 18%;
+	float: left;
+	width: 28%;
+	height: 200px;
+	padding: 10px;
+	background: url("./Graphics/homepage-ensembles-button.jpg");
+	background-size: cover;
+}
+.contact-button {
+	margin: 2% 18% 4% 1%;
+	float: right;
+	width: 28%;
+	height: 200px;
+	padding: 10px;
+	background: url("./Graphics/homepage-contact-button.jpg");
+	background-size: cover;
+}
+.button-text {
+	position: absolute;
+	bottom: 0;
+	color: #FFF;
+}
